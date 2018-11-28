@@ -1,0 +1,205 @@
+body {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 14px;
+    color: rgb(80, 80, 80);
+    background-color: #ffffff;
+    letter-spacing: 1px;
+}
+
+.titleMessage {
+   position: absolute;
+   width: 100%;
+   height: 250px;
+   top: 50%;
+   z-index: 5;
+   text-align: center;
+   margin-top: -125px; 
+}
+
+.titleMessage .heading p {
+    color: #ffffff;
+    text-shadow: 0px 2px 5px rgba(0,0,0, 0.4);
+    font-weight: 100;
+    letter-spacing: 6px;
+}
+
+.titleMessage .heading .mainTitle {
+    font-size: 40px;
+}
+
+.titleMessage .heading .studentTitle {
+    font-size: 25px;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    background-color: rgba(0,0,0, 0.6)
+}
+
+.slides-navigation {
+    z-index: 6;
+}
+
+.slides-navigation .prev,
+.slides-navigation .next {
+    width: 50px;
+    height: 50px;
+    opacity: 0.4;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slides-navigation a.prev {
+    left: 20px;
+    background-image: url(../img/icons/prev.png);
+}
+
+.slides-navigation a.next {
+    right: 20px;
+    background-image: url(../img/icons/next.png);
+}
+
+
+.slides-navigation .prev:hover {
+    opacity: 0.8;
+}
+
+.slides-navigation .next:hover {
+    opacity: 0.8;
+}
+
+.section{
+    padding: 100px 0;
+}
+
+.aboutImage {
+    width: 216px;
+    height: 216px;
+    border: 5px solid rgb(80, 80, 80);
+}
+
+.skillsSection {
+    background-color: rgb(255, 255, 255);
+    color: rgb(80, 80, 80);
+}
+
+.workSection {
+    background-color: rgb(255, 255, 255);
+    color: rgb(80, 80, 80);
+}
+
+.skill {
+    margin-left: 25px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.icon {
+    position: relative;
+    width: 152px;
+    height: 152px;
+    display: inline-block;
+}
+
+.jobLogo{
+    position: relative;
+    width: 216px;
+    height: 216px;
+    display: inline-block;
+}
+
+.squareText {
+    padding-top: 15px;
+    position: relative;
+    text-align: center;
+}
+
+.copyrightSection {
+    color: rgb(239, 239, 239);
+    position:absolute;
+    bottom:0;
+    right:0;
+    z-index: 100;
+    padding-right: 30px;
+}
+
+.tulipInfo {
+    color: rgb(80, 80, 80);
+    padding-left: 10%;
+    margin: auto;
+}
+
+.tulip-report {
+    color: rgb(80, 80, 80);
+    text-decoration: none; 
+    font-weight: bold;
+    font-size: 105%;
+}
+
+.tulip-report:hover {
+    color: rgb(240, 104, 126);
+    text-decoration: none; 
+}
+
+.tulipTitle {
+    color: rgb(240, 104, 126);
+    font-size: 110%;
+}
+
+.navbar {
+    /* background: rgb(38, 38, 38); */
+    background-image: linear-gradient(rgb(35, 35, 35), black, rgb(35, 35, 35));
+    overflow: hidden;
+    z-index: 99;
+    top: 0;
+    text-align: center;
+    position: fixed;
+    width: 670px;
+    font-size: 16px;
+    height: 40px;
+}
+
+.navbar-options a:last-child {
+    padding-right: 0px;  
+}
+
+.navbar a {
+    padding-top: 3px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 20px;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    text-decoration: none; 
+    color: rgb(175, 175, 175);
+}
+
+.navbar a img{
+    padding-bottom: 5px;
+}
+
+.navbar a img:hover {
+    filter: invert(40%) !important;
+    /* color: rgb(175, 175, 175); */
+}
+
+.navbar a.active {
+    text-decoration: none; 
+    color: rgb(175, 175, 175);
+}
+
+
+
+/* menuBar color rgba(0, 0, 0, 0.78); */
+/* text icons  rgb(255, 255, 255); */
+/* hover over text options rgb(150, 150, 150); */
+
+
+/* Guelph Red #C20430;*/
+/* Guelph Gold #FFC72A */
