@@ -190,12 +190,6 @@ body {
     filter: invert(40%) !important;
 }
 
-.navbar a.active {
-    text-decoration: none; 
-    color: rgb(175, 175, 175);
-}
-
-
 
 /* menuBar color rgba(0, 0, 0, 0.78); */
 /* text icons  rgb(255, 255, 255); */
