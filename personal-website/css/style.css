@@ -1,10 +1,11 @@
 body {
     font-family: 'Roboto', sans-serif; 
-    font-size: 14px;
+    font-size: 13px;
     color: rgb(80, 80, 80);
-    background-color: #ffffff;
+    background-color: rgb(240, 240, 240);
     letter-spacing: 1px;
 }
+
 
 .titleMessage {
    position: absolute;
@@ -34,29 +35,19 @@ body {
 .overlay {
     width: 100%;
     height: 100%;
-    position: relative;
+    position: absolute;
     z-index: 3;
-    background-color: rgba(0,0,0, 0.6)
+    background-color: rgba(0,0,0, 0.6);
 }
 
 .section{
-    padding: 100px 0;
+    padding: 100px 0px 20px;
 }
 
 .aboutImage {
     width: 216px;
     height: 216px;
     border: 5px solid rgb(80, 80, 80);
-}
-
-.skillsSection {
-    background-color: rgb(255, 255, 255);
-    color: rgb(80, 80, 80);
-}
-
-.workSection {
-    background-color: rgb(255, 255, 255);
-    color: rgb(80, 80, 80);
 }
 
 .skill {
@@ -80,19 +71,19 @@ body {
 }
 
 .copyrightSection {
-    color: rgb(239, 239, 239);
-    position:absolute;
+    color: rgb(10, 10, 10);
     bottom:0;
-    right:0;
-    z-index: 100;
+    z-index: 999;
     padding-right: 30px;
+    position: relative;
+    text-align: right;
 }
 
-.tulipInfo {
-    color: rgb(80, 80, 80);
-    padding-left: 10%;
+.jobTitle {
+    color: rgb(240, 240, 240);
     margin: auto;
 }
+
 
 .tulip-report {
     color: rgb(80, 80, 80);
@@ -111,32 +102,9 @@ body {
     font-size: 110%;
 }
 
-.tulip-header { 
-    display: inline-block;
-    position: relative;
-}
-
-.tulip-header-image { 
-    filter: blur(3px);
-    max-width: 100%;
-    max-height: 50%;
-}
-
-.tulip-header-logo{
-    display: flex;
-    position: absolute;
-    top: 0;
-    vertical-align: middle;
-    margin: 0 auto;
-    padding: 0;
-    border: 0;
-    transform: scale(0.5);
-
-}
-
 .navbar {
     background-image: linear-gradient(rgb(20, 20, 20), black, rgb(20, 20, 20));
-    opacity: 0.9;
+    /* opacity: 0.9; */
     overflow: hidden;
     z-index: 99;
     top: 0;
@@ -175,6 +143,75 @@ body {
     filter: invert(40%) !important;
 }
 
+.context-paragraph {
+    margin: 0 auto;
+    max-width: 90%;
+    padding-bottom: 20px;
+}
+
+.context-paragraph::first-letter { 
+    font-size: 150%;
+    
+}
+
+.workTermTitleText {
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(38, 38, 38);
+}
+
+.center-text {
+    text-align: center;
+}
+
+.job-box-container {
+    padding: 5px 0px 50px;
+    
+}
+
+.job-box-container a:hover {
+    text-decoration: none; 
+}
+
+.job-box {
+    position: relative;
+    background-color: rgb(38, 38, 38);
+    max-width: 90%;
+    max-height: 250px;
+    margin: 0 auto; 
+    text-align: center;
+    padding: 75px 30px;
+    overflow: hidden;
+}
+.job-box img {
+    opacity: 0.2;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.job-box h1, 
+.job-box h4 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    display: block;
+    line-height: 1em;
+    max-height: 4em;  
+    -webkit-text-stroke: 1px rgb(38, 38, 38);
+    position: relative;
+}
+
+
+.grow { 
+    transition: all .2s ease-in-out; 
+}
+.grow:hover { 
+    transform: scale(1.05); 
+}
 
 /* menuBar color rgba(0, 0, 0, 0.78); */
 /* text icons  rgb(255, 255, 255); */
