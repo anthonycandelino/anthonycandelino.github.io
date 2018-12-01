@@ -79,9 +79,10 @@ body {
     text-align: right;
 }
 
-.jobTitle {
+.job-title {
     color: rgb(240, 240, 240);
     margin: auto;
+    font-size: 36px;
 }
 
 
@@ -111,7 +112,7 @@ body {
     position: fixed;
     width: 100%;
     font-size: 16px;
-    height: 40px;
+    height: 55px;
 }
 
 .navbar-options {
@@ -120,6 +121,7 @@ body {
     text-align: center;
     padding-left: 40px;
     padding-right: 40px;
+    transform: scale(1.1);
 }
 
 .navbar a {
@@ -157,7 +159,7 @@ body {
 .workTermTitleText {
     padding-top: 10px;
     text-align: center;
-    color: rgb(38, 38, 38);
+    color: rgb(50, 50, 50);
 }
 
 .center-text {
@@ -175,16 +177,22 @@ body {
 
 .job-box {
     position: relative;
-    background-color: rgb(38, 38, 38);
+    background-color: rgb(50, 50, 50);
     max-width: 90%;
-    max-height: 250px;
+    max-height: 200px;
     margin: 0 auto; 
     text-align: center;
     padding: 75px 30px;
     overflow: hidden;
 }
+
+.pending {
+    background-color: rgb(10, 10, 10);
+}
+
 .job-box img {
     opacity: 0.2;
+    transform: scale(1.05); 
     position: absolute;
     margin: auto;
     top: 0;
@@ -199,8 +207,8 @@ body {
     text-overflow: ellipsis;
     word-wrap: break-word;
     display: block;
-    line-height: 1em;
-    max-height: 4em;  
+    line-height: 1.5em;
+    max-height: 4em;
     -webkit-text-stroke: 1px rgb(38, 38, 38);
     position: relative;
 }
