@@ -6,13 +6,6 @@ $(document).ready(function() {
         pagination: false,
     });
 
-    // var typedTitle = new Typed(".typedTitle", {
-    //     strings: ["ANTHONY CANDELINO"],
-    //     typeSpeed: 80,
-    //     startDelay: 200,
-    //     showCursor: false,
-    // });
-
     var typedSubTitles = new Typed(".typedSubTitles", {
         strings: ["Computer Science Student", "University of Guelph",],
         typeSpeed: 85,
@@ -21,6 +14,14 @@ $(document).ready(function() {
         showCursor: false,
     });
 
+    var typedDirectory = new Typed('#typedDirectory', {
+        stringsElement: '#typed-string',
+        typeSpeed: 85,
+        loop: false,
+        startDelay: 50,
+        showCursor: true,
+    });
+    
     $('.owl-languages').owlCarousel({
         loop: true,
         items: 6,

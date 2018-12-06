@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif; 
-    font-size: 13px;
+    font-size: 16px;
     color: rgb(80, 80, 80);
     font-weight: lighter;
     background-color: rgb(256, 256, 256);
@@ -42,8 +42,9 @@ body {
 }
 
 .section{
-    padding: 100px 0px 20px;
+    padding: 60px 60px;
 }
+
 
 .aboutImage {
     width: 216px;
@@ -111,21 +112,20 @@ body {
     background-color: black;
     position: relative;
     width: 100%;
-    max-height: 200px;
-    text-align: center;
+    max-height: 225px;
+    text-align: left;
 }
 
 .header img {
-    opacity: 0.45;
+    opacity: 0.2;
     width: 100%;
-    max-height: 200px;
+    max-height: 225px;
 }
 
 .header h1 {
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 50%;
+    padding-left: 10%;
+    margin: 0 auto;
+    top: 55%;
     font-weight: lighter;
     color: #ffffff;
 
@@ -137,7 +137,7 @@ body {
     overflow: hidden;
     z-index: 99;
     top: 0;
-    position: fixed;
+    position: absolute;
     width: 100%;
     font-size: 13px;
     height: 55px;
@@ -155,8 +155,8 @@ body {
 .navbar a {
     padding-top: 5px;
     color: rgb(255, 255, 255);
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
     display: inline-block;
     
     transition: all 0.1s linear;
@@ -164,10 +164,31 @@ body {
 }
 
 .navbar-options:hover a{
-    opacity:0.5;
+    transition: opacity 0.25s ease-in-out;
+    opacity: 0.5;
 }
 .navbar-options a:hover{
-    opacity:1;
+    opacity: 1;
+}
+
+.about-header {
+    margin: 0 auto;
+    max-width: 90%;
+    padding-bottom: 20px;
+}
+
+.about-info {
+    margin: 0 auto;
+    max-width: 90%;
+    padding-bottom: 45px;
+    font-size: 16px; 
+    padding-left: 20px;
+}
+
+.about-info a {
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+    font-weight: 300;
 }
 
 .context-paragraph {
@@ -248,6 +269,41 @@ body {
     transform: scale(1.05); 
 }
 
+.summary-defualt {
+    text-decoration: none;
+}
+
+.resume-content {
+    position: absolute;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+.resume-embed {
+    position: relative;
+    margin: auto;
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    height: 1200px;
+}
+
+.download-button {
+    position: relative;
+    background-color: rgb(30, 30, 30);
+    border: 1px rgb(30, 30, 30) solid;
+    color: white;
+    padding: 14px 35px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.download-button:hover {
+    border: 1px rgb(30, 30, 30) solid;
+    background-color: white;
+    color: rgb(30, 30, 30);
+  }
 /* menuBar color rgba(0, 0, 0, 0.78); */
 /* text icons  rgb(255, 255, 255); */
 /* hover over text options rgb(150, 150, 150); */
