@@ -38,6 +38,14 @@
 	font-size: 14px;
 }
 
+.footer-links:hover a{
+    transition: opacity 0.25s ease-in-out;
+    opacity: 0.5;
+}
+.footer-links a:hover{
+	opacity: 1;
+}
+
 .footer-distributed .footer-company-name{
 	color:  #8f9296;
 	font-size: 14px;
@@ -84,7 +92,7 @@
 }
 
 .footer-distributed .footer-center p a{
-	color:  #5383d3;
+	color: #ffffff;
 	text-decoration: none;;
 }
 
