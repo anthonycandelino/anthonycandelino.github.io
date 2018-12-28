@@ -96,6 +96,9 @@
 	text-decoration: none;;
 }
 
+.footer-distributed .footer-center p:hover a{
+	color:#92999f;;
+}
 
 /* Footer Right */
 
