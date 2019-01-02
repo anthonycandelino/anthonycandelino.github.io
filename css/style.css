@@ -125,7 +125,7 @@ body {
 
 .header img {
     object-fit: cover;
-    filter: brightness(50%);
+    filter: brightness(30%);
     width: 100%;
     max-height: 300px;   
 }
