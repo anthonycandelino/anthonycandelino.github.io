@@ -132,12 +132,10 @@ body {
 
 .header h1 {
     text-align: center;
-    /* padding-left: 10%; */
     margin: 0 auto;
     top: 55%;
     left: 0;
     right: 0;
-    font-weight: lighter;
     color: #ffffff;
     font-size: 50px;
     text-shadow: 1px 1px rgb(38, 38, 38);
