@@ -113,7 +113,10 @@ body {
 
 .tulipTitle {
     color: rgb(240, 104, 126);
-    font-size: 110%;
+}
+
+.uog-title {
+    color: #FFC72A;
 }
 
 .header {
