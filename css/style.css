@@ -119,6 +119,10 @@ body {
     color: #FFC72A;
 }
 
+.slf-title {
+    color: rgb(228,166,0);
+}
+
 .header {
     position: relative;
     width: 100%;
