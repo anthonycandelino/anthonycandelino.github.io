@@ -123,6 +123,10 @@ body {
     color: rgb(228,166,0);
 }
 
+.ncr-title {
+    color: rgb(84,186,71);
+}
+
 .header {
     position: relative;
     width: 100%;
@@ -306,7 +310,7 @@ body {
 
 
 .grow { 
-    transition: all .15s ease-in-out; 
+    transition: all .2s ease-in-out; 
 }
 .grow:hover { 
     cursor: pointer;
